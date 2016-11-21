@@ -1,0 +1,8 @@
+{
+  "location": "default",
+  "measurements": {
+    "sensors" :{{sensors}},
+    "alerts": []
+  },
+  "timestamp": {{last_updated}}
+}
