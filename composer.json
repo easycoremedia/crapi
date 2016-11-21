@@ -1,0 +1,20 @@
+{
+  "name": "easycoremedia/crapi",
+  "description": "Simple library to create unreliable API responder.",
+  "keywords": [ "api", "unreliable" ],
+  "homepage": "https://github.com/easycoremedia/crapi",
+  "authors": [
+    {
+      "name": "Jan Křeček",
+      "email": "me@jankrecek.cz"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Easycore\\" : "src/"
+    }
+  }
+}
