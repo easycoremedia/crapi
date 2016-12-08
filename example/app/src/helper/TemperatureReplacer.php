@@ -44,7 +44,7 @@ class TemperatureReplacer implements Replacer
         $humidity1 = $this->getHumiditySensorData(1, $tm1);
         $humidity2 = $this->getHumiditySensorData(1, $tm2);
 
-        switch (rand() % 3) {
+        switch (2) {
             case 0: // by sensor groups
                 return [
                     $this->sensorGroupWrapper(1, self::LOCATIONS[1], [$tempData1, $humidity1]),
